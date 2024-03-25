@@ -1,0 +1,55 @@
+body {
+    background-color:rgb(0,200,200);
+  }
+  
+  h1, p {
+     margin:0 auto;
+     text-align: center;
+   }
+   p{
+     margin-bottom: 10px;
+   }
+  
+  form{
+     font-size:1.2em;
+     background-color:rgb(0,0,90);
+     color:white;
+     margin: 0 auto;
+     max-width:400px;
+     min-width:300px;
+     padding:30px;
+   }
+  
+   label{
+     display:block;margin-bottom: 15px;
+   }
+  
+   input{
+     display :block;
+  }
+  
+  .inline{
+    border-radius:5px;
+    width:100%;
+    margin-top:2px;
+  }
+  
+  input[type="radio"],input[type="checkbox"]{
+    display:inline;
+    vertical-align:middle;
+  }
+  
+  input[type="submit"]{
+    width:8em;
+    margin: 0 auto;
+    border-radius:5px;
+    background-color:rgb(0,240,0);
+  }
+  
+  .pre-elem{
+    margin-bottom:0;
+  }
+  
+  input,select{
+    min-height:2em;
+  }
